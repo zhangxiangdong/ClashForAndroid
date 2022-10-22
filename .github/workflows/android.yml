@@ -25,4 +25,4 @@ jobs:
     - name: Update submodules
       run: git submodule update --init --recursive
     - name: Build with Gradle
-      run: ./gradlew build
+      run: ./gradlew assembleFossDebug --debug
